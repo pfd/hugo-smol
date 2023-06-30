@@ -1,17 +1,11 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Cool Docs"
-theme = "docsy"
 
 [params]
   description = "Bootstrap your docs team."
   logo = "images/logo.png"
   favicon = "images/favicon.ico"
-
-[module]
-  [[module.imports]]
-    path = "github.com/google/docsy"
-    disabled = false
 
 [menu]
   [[menu.main]]
@@ -34,3 +28,17 @@ theme = "docsy"
     name = "Contact"
     url = "/contact/"
     weight = 4
+
+[module]
+  proxy = "direct"
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/google/docsy -> ../../docsy"
+  [module.hugoVersion]
+    extended = true
+    min = "0.115.0"
+  [[module.imports]]
+    path = "github.com/google/docsy"
+    disable = false
+  [[module.imports]]
+    path = "github.com/google/docsy/dependencies"
+    disable = false
