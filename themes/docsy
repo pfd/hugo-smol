@@ -1,0 +1,9 @@
+The `themes/docsy` directory is not a file but a directory that contains the Docsy theme files. However, to use Docsy as a Hugo module, you need to add the following lines to your `config.toml` file:
+
+```toml
+[module]
+  [[module.imports]]
+    path = "github.com/google/docsy"
+```
+
+This will import the Docsy theme as a Hugo module. Please note that you need to have Hugo version 0.56+ and Go 1.11+ installed on your machine to use Hugo modules.

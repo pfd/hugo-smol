@@ -1,23 +1,15 @@
 Shared Dependencies:
 
-1. **Hugo Configuration**: The `config.toml` file is a shared dependency as it contains the site-wide configuration for the Hugo static site generator. It will include the site title, language, theme, and other parameters.
+1. **Hugo Configuration**: The `config.toml` file is a shared dependency as it contains the site-wide configuration for the Hugo static site generator. This includes the site title, theme, language, and other parameters that are used across all the other files.
 
-2. **Docsy Theme**: The `themes/docsy` directory is a shared dependency as it contains the Docsy theme files. This theme will be used across all the pages of the site.
+2. **Docsy Theme**: The `themes/docsy` directory is a shared dependency as it contains the Docsy theme files that are used to style and structure the entire site. This includes the HTML templates, CSS stylesheets, and JavaScript files that are used across all the other files.
 
-3. **Content Files**: The `content/_index.md`, `content/about/_index.md`, `content/services/_index.md`, `content/portfolio/_index.md`, and `content/contact/_index.md` files are shared dependencies as they contain the content for the respective pages of the site.
+3. **Content Files**: The `content/_index.md`, `content/about.md`, `content/services.md`, `content/portfolio.md`, and `content/contact.md` files are shared dependencies as they contain the Markdown content for the respective pages of the site. These files use the Hugo front matter format, which includes metadata such as the page title, description, and layout that are used across all the other files.
 
-4. **Layout Files**: The `layouts/index.html`, `layouts/about/single.html`, `layouts/services/single.html`, `layouts/portfolio/single.html`, and `layouts/contact/single.html` files are shared dependencies as they define the layout for the respective pages of the site.
+4. **Static Files**: The `static/images/logo.png`, `static/images/favicon.ico`, `static/css/custom.css`, and `static/js/custom.js` files are shared dependencies as they contain the static assets for the site. These files are directly served by Hugo and are used across all the other files.
 
-5. **Partial Files**: The `layouts/partials/navbar.html` and `layouts/partials/footer.html` files are shared dependencies as they define the common navigation bar and footer for all the pages of the site.
+5. **Layout Partials**: The `layouts/partials/custom-header.html` and `layouts/partials/custom-footer.html` files are shared dependencies as they contain the HTML partials for the header and footer of the site. These files are included in the main layout template and are used across all the other files.
 
-6. **Static Files**: The `static/images/logo.png` and `static/images/favicon.ico` files are shared dependencies as they contain the logo and favicon for the site, which will be used across all the pages.
+6. **DOM Elements**: The JavaScript functions in the `static/js/custom.js` file may use various DOM elements that are defined in the HTML templates. The id names of these DOM elements are shared dependencies.
 
-7. **Data File**: The `data/params.toml` file is a shared dependency as it contains the parameters for the site, which will be used across all the pages.
-
-8. **Custom Styles and Scripts**: The `assets/scss/custom.scss` and `assets/js/custom.js` files are shared dependencies as they contain the custom styles and scripts for the site, which will be used across all the pages.
-
-9. **DOM Elements**: The id names of DOM elements that JavaScript functions will use are shared dependencies. These might include elements like `#navbar`, `#footer`, `#main-content`, etc.
-
-10. **Function Names**: Any JavaScript function names used across multiple files are shared dependencies. These might include functions like `init()`, `loadContent()`, `submitForm()`, etc.
-
-11. **Message Names**: Any message names used for communication between different parts of the application are shared dependencies. These might include messages like `contentLoaded`, `formSubmitted`, `errorOccurred`, etc.
+7. **CSS Classes**: The CSS styles in the `static/css/custom.css` file may use various CSS classes that are defined in the HTML templates. The names of these CSS classes are shared dependencies.
