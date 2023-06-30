@@ -2,19 +2,16 @@
 title: "Contact Us"
 linkTitle: "Contact"
 weight: 5
-description: "Reach out to us if you have any queries or need assistance with your documentation processes."
+description: "Reach out to us for any queries or assistance."
 ---
 
-## Get in touch
-
-We'd love to hear from you. Whether you have a question about our services, need assistance or just want to talk, feel free to reach out.
-
-**Email:** [info@cooldocs.com](mailto:info@cooldocs.com)
-
-**Phone:** +1-800-123-4567
-
-**Address:** 1234 Cool Docs Street, Docs City, 56789
-
-You can also fill out the form below to send us a message directly.
+Need help with your documentation process? We're here to help. Get in touch with us using the form below or email us directly at [info@cooldocs.com](mailto:info@cooldocs.com).
 
 {{< form contact >}}
+
+Our office is located at:
+
+123 Main Street,
+San Francisco, CA 94101
+
+We look forward to hearing from you!

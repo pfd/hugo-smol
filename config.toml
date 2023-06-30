@@ -6,16 +6,33 @@ theme = "docsy"
 
 [params]
   description = "Bootstrap your docs team."
-  logo = "/images/logo.png"
-  favicon = "/images/favicon.ico"
+  logo = "images/logo.png"
+  favicon = "images/favicon.ico"
 
 [module]
   [[module.imports]]
     path = "github.com/google/docsy"
     disabled = false
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 2
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 3
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
 ```

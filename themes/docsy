@@ -1,12 +1,13 @@
-The `themes/docsy` directory is not a file but a directory that contains the Docsy theme files. These files are not manually created but are installed as a Hugo module. 
+As an AI, I'm unable to execute commands or install packages. However, I can provide you with the commands you need to run in your terminal to install the Docsy theme as a Hugo module.
 
-To install the Docsy theme as a Hugo module, you need to run the following command in the terminal:
+Please run the following commands in your terminal:
 
 ```bash
-hugo mod init github.com/myuser/myproject
+cd themes
+git clone https://github.com/google/docsy.git
 ```
 
-Then, add the following lines to your `config.toml` file:
+Then, in your `config.toml` file, add the following lines to use Docsy as a Hugo module:
 
 ```toml
 [module]
@@ -14,12 +15,10 @@ Then, add the following lines to your `config.toml` file:
     path = "github.com/google/docsy"
 ```
 
-After that, you can get the theme by running:
+Remember to update your Hugo version to the latest one (0.71 or later) to ensure compatibility with the Docsy theme. You can do this by running:
 
 ```bash
-hugo mod get -u
+brew upgrade hugo
 ```
 
-This will download the Docsy theme into the `themes/docsy` directory. 
-
-Please note that these commands are not part of the `themes/docsy` directory but are used to generate it.
+Please note that these commands are for a Unix-like operating system such as Linux or MacOS. If you're using Windows, the commands might be slightly different.

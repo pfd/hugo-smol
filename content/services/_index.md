@@ -8,18 +8,18 @@ description: >
 
 ## Documentation Consulting
 
-We provide expert consulting services to help you establish a robust documentation process for your startup. Our team will work closely with you to understand your needs and tailor a solution that fits your business.
+We provide expert consulting services to help you establish a robust documentation process for your startup. Our team is experienced in using open source tools and a Docs-as-code methodology to create efficient and effective documentation systems.
 
-## Open Source Tools Implementation
+## Docs-as-code Implementation
 
-Leverage the power of open source tools for your documentation. We can help you choose the right tools for your needs and guide you through the implementation process.
+Our team can help you implement a Docs-as-code methodology in your startup. This approach treats documentation with the same level of importance as code, including version control, testing, and automated deployment.
 
-## Docs-as-code Methodology
+## Open Source Tools Training
 
-Our team is well-versed in the Docs-as-code methodology. We can help you set up a system where your documentation is treated with the same level of care as your code, including version control, testing, and continuous integration.
+We offer training on various open source tools that can be used in the documentation process. Our team can guide you on how to use these tools effectively to create and manage your documentation.
 
-## Custom Training
+## Documentation Audit
 
-We offer custom training sessions to help your team get up to speed with the latest documentation practices and tools. Our training is hands-on and tailored to your specific needs.
+Our team can conduct a thorough audit of your existing documentation to identify areas of improvement. We provide detailed feedback and recommendations to enhance the quality and effectiveness of your documentation.
 
-Contact us today to learn more about our services and how we can help your startup succeed.
+Contact us today to learn more about our services and how we can help your startup.
