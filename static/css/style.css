@@ -1,0 +1,57 @@
+/* Main CSS Styles for Cool Docs Website */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+#header .logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* Main Content Styles */
+#main-content {
+    margin: 20px;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Portfolio Styles */
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+/* Contact Form Styles */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+.contact-form button:hover {
+    background-color: #444;
+}

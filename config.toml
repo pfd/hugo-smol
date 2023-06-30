@@ -1,0 +1,39 @@
+```toml
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Cool Docs"
+theme = "docsy"
+
+[params]
+  description = "We specialize in helping startups build documentation processes using open source tools and a Docs-as-code methodology."
+  author = "Cool Docs Team"
+  logo = "/images/logo.png"
+  tagline = "Bootstrap your docs team."
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 20
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services"
+    weight = 30
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio"
+    weight = 40
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 50
+```

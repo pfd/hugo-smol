@@ -1,0 +1,7 @@
+The `themes/docsy` directory is not a file but a directory that contains the Docsy theme files. As an AI, I can't generate the entire Docsy theme here because it's a complex set of many files and directories. However, you can add the Docsy theme to your Hugo website by adding it as a Git submodule. Here is the command you can use in your terminal:
+
+```bash
+git submodule add https://github.com/google/docsy.git themes/docsy
+```
+
+After running this command, the Docsy theme will be added to your Hugo website in the `themes/docsy` directory.
