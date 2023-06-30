@@ -1,4 +1,3 @@
-```toml
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Cool Docs"
@@ -35,4 +34,3 @@ theme = "docsy"
     name = "Contact"
     url = "/contact/"
     weight = 4
-```
