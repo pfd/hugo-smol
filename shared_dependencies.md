@@ -1,21 +1,19 @@
 Shared Dependencies:
 
-1. **Hugo Configuration**: The `config.toml` file is the main configuration file for Hugo and it will be shared across all the files. It will contain the site parameters, theme configuration, and other global settings.
+1. **Hugo Configuration**: The `config.toml` file is a shared dependency as it contains the site-wide configuration for the Hugo static site generator. This includes the site title, theme, language, and other parameters.
 
-2. **Content Files**: The `.md` files in the `content` directory (`_index.md`, `about.md`, `services.md`, `portfolio.md`, `contact.md`) will share the same front matter schema defined by Hugo and the Docsy theme.
+2. **Doocsy Theme**: The `themes/docsy` directory is a shared dependency as it contains the Docsy theme files. This theme is used across all the pages of the site.
 
-3. **Static Files**: The `style.css` and `script.js` files in the `static` directory will be shared across all the HTML files. They will contain the CSS styles and JavaScript functions respectively.
+3. **Content Files**: The `content/_index.md`, `content/about/_index.md`, `content/services/_index.md`, `content/portfolio/_index.md`, and `content/contact/_index.md` files share the Markdown format for content and the front matter schema for metadata.
 
-4. **Logo Image**: The `logo.png` file in the `static/images` directory will be used in the `header.html` and possibly other HTML files.
+4. **Logo Image**: The `static/images/logo.png` file is a shared dependency as it is used in the header and possibly other parts of the site.
 
-5. **Docsy Theme**: The `themes/docsy` directory will contain the Docsy theme files which will be used across all the HTML files.
+5. **Custom CSS and JS**: The `static/css/custom.css` and `static/js/custom.js` files are shared dependencies as they contain the custom styles and scripts used across the site.
 
-6. **Layout Files**: The `header.html`, `footer.html`, `baseof.html`, `list.html`, `single.html` files in the `layouts` directory will share the same Hugo layout schema. They will also share the same DOM elements ids, such as `#header`, `#footer`, `#main-content`, etc.
+6. **Custom Header and Footer**: The `layouts/partials/custom-header.html` and `layouts/partials/custom-footer.html` files are shared dependencies as they contain the custom header and footer used across the site.
 
-7. **JavaScript Functions**: The JavaScript functions defined in `script.js` will be used across all the HTML files. The function names will be shared across these files.
+7. **DOM Elements**: The ID names of DOM elements used in the custom JavaScript functions are shared dependencies. These could include elements like `#navbar`, `#main-content`, `#footer`, etc.
 
-8. **CSS Styles**: The CSS styles defined in `style.css` will be used across all the HTML files. The class and id names will be shared across these files.
+8. **Function Names**: Any JavaScript functions defined in the `static/js/custom.js` file are shared dependencies. These could include functions like `initNavbar()`, `loadContent()`, `submitContactForm()`, etc.
 
-9. **Message Names**: Any message names used for user notifications or alerts will be shared across the JavaScript and HTML files.
-
-10. **Global Variables**: Any global variables defined in `script.js` or `style.css` will be shared across all the HTML files.
+9. **Message Names**: Any message names used in the site, such as error messages, success messages, or informational messages, are shared dependencies. These could include messages like `formSubmissionSuccess`, `formSubmissionError`, `contentLoadError`, etc.
